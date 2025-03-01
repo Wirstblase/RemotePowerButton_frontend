@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remote Power Button</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-$END$
+<div class="container">
+
+    <h1>Power Button</h1>
+    <p>This will press the actual power button on my pc</p>
+
+    <button id="pressButton">Press Button</button>
+    <button id="holdButton" class="roundButton"></button>
+
+    <p>Use at your own risk</p>
+    <p id="statusLabel" class="statusLabel">Status: Idle</p>
+
+</div>
+<script src="script.js"></script>
 </body>
 </html>
